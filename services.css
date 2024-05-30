@@ -1,0 +1,44 @@
+.service__list{
+    
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-bottom: 70px;
+ }
+ .comparison-section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  .comparison-table th, .comparison-table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .comparison-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
+  
+  .checkmark {
+    color: blue;
+  }
+  
+  .checkmark-light {
+    color: lightgray;
+  }
+  
+  .crossmark {
+    color: red;
+  }
+ 

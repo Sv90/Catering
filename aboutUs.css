@@ -1,0 +1,45 @@
+.aboutUs__content{
+    display: flex;
+    align-items: flex-start;
+}
+
+.aboutUs__img {
+    flex: 0 0 auto;
+    /* Размер изображения будет автоматический */
+    margin-right: 50px;
+    /* Добавляем немного отступа между изображением и текстом */
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.aboutUs__item {
+    flex: 1;
+}
+.aboutUs__text{
+    padding-bottom: 1em;
+    font-size: 1.125em
+}
+
+.team__list{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 150px;
+    margin-bottom: 70px;
+}
+
+.team__item-img{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.team__item-title{
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.team__item-text{
+    font-size: 1.125em;
+}
+.section-title-aboutUs_order{
+    color: #9500DB;
+}
